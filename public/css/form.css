@@ -1,0 +1,246 @@
+@font-face {
+  src        : url('../fonts/Boon-300.ttf') format('truetype');
+  font-family: "Boon-0.3";
+  font-style : normal;
+  font-weight: 300;
+}
+@font-face {
+  src        : url('../fonts/Boon-300i.ttf') format('truetype');
+  font-family: "Boon-0.3";
+  font-style : italic;
+  font-weight: 300;
+}
+@font-face {
+  src        : url('../fonts/Boon-400.ttf') format('truetype');
+  font-family: "Boon-0.4";
+  font-style : normal;
+  font-weight: 400;
+}
+@font-face {
+  src        : url('../fonts/Boon-400i.ttf') format('truetype');
+  font-family: "Boon-0.4";
+  font-style : italic;
+  font-weight: 400;
+}
+@font-face {
+  src        : url('../fonts/Boon-500.ttf') format('truetype');
+  font-family: "Boon-0.5";
+  font-style : normal;
+  font-weight: 500;
+}
+@font-face {
+  src        : url('../fonts/Boon-500i.ttf') format('truetype');
+  font-family: "Boon-0.5";
+  font-style : italic;
+  font-weight: 500;
+}
+@font-face {
+  src        : url('../fonts/Boon-600.ttf') format('truetype');
+  font-family: "Boon-0.6";
+  font-style : normal;
+  font-weight: 600;
+}
+@font-face {
+  src        : url('../fonts/Boon-600i.ttf') format('truetype');
+  font-family: "Boon-0.6";
+  font-style : italic;
+  font-weight: 600;
+}
+@font-face {
+  src        : url('../fonts/Boon-700.ttf') format('truetype');
+  font-family: "Boon-0.7";
+  font-style : normal;
+  font-weight: 700;
+}
+@font-face {
+  src        : url('../fonts/Boon-700i.ttf') format('truetype');
+  font-family: "Boon-0.7";
+  font-style : italic;
+  font-weight: 700;
+}
+
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+  position         : fixed;
+  margin           : auto;
+  width            : 320px;
+  height           : 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform    : translate3d(0%, 0, 0);
+  -o-transform     : translate3d(0%, 0, 0);
+  transform        : translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+  height    : 100%;
+  overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+  padding: 15px 15px 80px;
+}
+
+.modal.left.fade .modal-dialog {
+  left              : -320px;
+  -webkit-transition: opacity .3s linear, left .3s ease-out;
+  -moz-transition   : opacity .3s linear, left .3s ease-out;
+  -o-transition     : opacity .3s linear, left .3s ease-out;
+  transition        : opacity .3s linear, left .3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog {
+  left: 0;
+}
+
+.modal.right.fade .modal-dialog {
+  right             : -320px;
+  -webkit-transition: opacity .3s linear, right .3s ease-out;
+  -moz-transition   : opacity .3s linear, right .3s ease-out;
+  -o-transition     : opacity .3s linear, right .3s ease-out;
+  transition        : opacity .3s linear, right .3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+  right: 0;
+}
+
+.modal-content {
+  border-radius: 0;
+  border       : none;
+}
+
+.modal-header {
+  border-bottom-color: #EEEEEE;
+  background-color   : #FAFAFA;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #36ad75;
+}
+
+.navbar-farmer-background {
+  background        : #fff;
+  border-bottom     : 1px solid #dedede;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(238, 238, 238, 1);
+  -moz-box-shadow   : 0 1px 5px 0 rgba(238, 238, 238, 1);
+  box-shadow        : 0 1px 5px 0 rgba(238, 238, 238, 1);
+}
+
+.navbar-farmer-background .navbar-nav > .active > a:focus,
+.navbar-farmer-background .navbar-nav > .active > a:hover,
+.navbar-farmer-background > a {
+  background: #fff;
+}
+
+.nav > li.active > a {
+  color: #36ad75;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background: #f4f4f4;
+}
+
+.navbar-nav > li > a {
+  font-family   : "Boon-0.7";
+  font-size     : 16px;
+  color         : #888;
+  letter-spacing: 1px;
+}
+
+body {
+  padding-top: 80px;
+  color      : #7c868c;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin     : 4px auto;
+  font-family: "Boon-0.7";
+}
+
+.h1,
+.h2,
+h1,
+h2 {
+  padding: 10px 0;
+}
+
+h1 {
+  font-size: 22px;
+  color    : #212721;
+}
+
+.h3,
+h3 {
+  font-size     : 14px;
+  letter-spacing: 1px;
+  color         : #282a68;
+  margin        : 10px auto 4px;
+}
+
+.h4,
+h4 {
+  color    : #333;
+  font-size: 16px;
+  margin   : 10px auto;
+}
+
+fieldset {
+  -webkit-box-shadow: 4px 4px 0 0 rgba(230, 230, 230, 1);
+  -moz-box-shadow   : 4px 4px 0 0 rgba(230, 230, 230, 1);
+  box-shadow        : 4px 4px 0 0 rgba(230, 230, 230, 1);
+  border-top        : #008933 10px solid;
+  padding           : 20px;
+  border-left       : 1px solid #e6e6e6;
+  border-bottom     : 1px solid #e6e6e6;
+  margin-bottom     : 40px;
+}
+
+label {
+  color: #333;
+}
+
+button {
+  font-family: "Boon-0.7";
+}
+
+strong {
+  font-family   : "Boon-0.7";
+  letter-spacing: 1px;
+  color         : #06204b;
+}
+
+.site-logo {
+  width     : 100px;
+  margin-top: -6px;
+}
+
+.form-group label {
+  letter-spacing: 1px;
+}
+
+.div-form {
+  padding-left : 10px;
+  padding-right: 10px;
+}

@@ -1,0 +1,153 @@
+
+/*update 2017-05-12*/
+
+.head-table {
+  text-align: center;
+}
+
+.head-table-detail {
+  text-align: right;
+}
+
+.div-province {}
+
+.div-amphur {}
+
+.div-submit {}
+
+.fg-div-report {
+  padding-bottom: 20px;
+}
+
+.fg-div-checked {
+  padding-bottom: 20px;
+}
+
+.fg-div-province {
+  padding-bottom: 20px;
+}
+
+.fg-div-amphur {
+  padding-bottom: 20px;
+}
+
+.fg-div-tambon {
+  padding-bottom: 20px;
+}
+
+.btn-show-report {
+  margin-top: 30px;
+  width     : 100%;
+}
+
+.table th {
+  text-align: center;
+}
+
+.tbinfo th {
+  text-align: left;
+  font-size : 16px;
+}
+
+.tbinfo td {
+  text-align: left;
+  color     : #117A65;
+  font-size : 16px;
+}
+
+.fa-info-land {
+  font-size: 18px;
+  color    : #2874A6;
+}
+
+.fa-survey-list {
+  font-size: 18px;
+  color    : #17A3CC;
+}
+
+.fa-remove-land {
+  font-size: 18px;
+  color    : #7B241C;
+}
+
+.fa-survey-land {
+  font-size: 18px;
+  color    : #117A65;
+}
+
+.no-border {
+  border    : 0;
+  box-shadow: none;
+  /* You may want to include this as bootstrap applies these styles too */
+}
+
+.border-none {
+  border    : 0;
+  outline   : 0;
+  background: transparent;
+  width     : 100px;
+}
+
+.border-bottom {
+  border       : 0;
+  outline      : 0;
+  background   : transparent;
+  border-bottom: 1px solid black;
+  width        : 100px;
+}
+
+.border-bottom-rang {
+  border       : 0;
+  outline      : 0;
+  background   : transparent;
+  border-bottom: 1px solid black;
+  width        : 40px;
+}
+
+.border-bottom-number {
+  border       : 0;
+  outline      : 0;
+  background   : transparent;
+  border-bottom: 1px solid black;
+  width        : 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.normal {
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.tb-surveyform thead,
+tbody,
+td,
+th,
+tr {
+  padding: 5px 10px;
+}
+
+.fa-info-item {
+  font-size: 18px;
+  color    : #2874A6;
+}
+
+.fa-edit-item {
+  font-size: 18px;
+  color    : #117A65;
+}
+
+.fa-remove-item {
+  font-size: 18px;
+  color    : #7B241C;
+}
